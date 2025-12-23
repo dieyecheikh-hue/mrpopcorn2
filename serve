@@ -1,0 +1,5 @@
+<?php
+
+echo "\nPress crtl-C to shutdown the server\n\n";
+
+exec("php -S localhost:8000 -t public");
